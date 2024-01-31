@@ -1,4 +1,5 @@
-﻿using MailKit.Net.Imap;
+﻿using EmailReportGenerator.Models;
+using MailKit.Net.Imap;
 using MimeKit;
 using System;
 using System.Collections.Generic;
@@ -17,8 +18,8 @@ namespace EmailReportGenerator.Services
         public ImapClient ImapClient { get; set; }
 
         public Task Connect();
-        public List<MimeMessage> GetEmailsBySubjectAndSender(string subject, string sender);
-        public void SaveAttachmentFromEmail(MimeMessage email);
+        public List<EmailModel> GetEmailsBySubjectAndSender(string subject, string sender);
+        public void SaveAttachmentFromEmail(IEnumerable<MimeEntity> attachments);
 
     }
 }

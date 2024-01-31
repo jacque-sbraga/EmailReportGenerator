@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "EmailReportGenerator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "EMAIL": "jaquelinesantosbraga@gmail.com",
+        "PASSWORD": "xuzi niip bcwj bmvg"
+      }
+    }
+  }
+}

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaque\\source\\repos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj": {}
+    "C:\\Users\\j.santos.braga\\projetos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaque\\source\\repos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj": {
+    "C:\\Users\\j.santos.braga\\projetos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaque\\source\\repos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\j.santos.braga\\projetos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj",
         "projectName": "EmailReportGenerator",
-        "projectPath": "C:\\Users\\jaque\\source\\repos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj",
-        "packagesPath": "C:\\Users\\jaque\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaque\\source\\repos\\EmailReportGenerator\\EmailReportGenerator\\obj\\",
+        "projectPath": "C:\\Users\\j.santos.braga\\projetos\\EmailReportGenerator\\EmailReportGenerator\\EmailReportGenerator.csproj",
+        "packagesPath": "C:\\Users\\j.santos.braga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j.santos.braga\\projetos\\EmailReportGenerator\\EmailReportGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\j.santos.braga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +47,22 @@
             "MailKit": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
